@@ -12,13 +12,15 @@ Step 2:
 open the WSL2 and run the following commands:
 
 docker compose up -d
--- 
+--
 {it will create a default network to run both the container on same network}
 
 Or you can pull the image from docker hub also.
 
 docker pull paramveer03/myinventoryapp
 --
+docker pull mongo
+-- this is official image from mongo
 
 after pulling the image you can run
 docker run -d --name anycontainername -p 5000:80 paramveer03/myinventoryapp
