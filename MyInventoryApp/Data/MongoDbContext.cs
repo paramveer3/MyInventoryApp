@@ -5,6 +5,7 @@ public class MongoDBContext
 {
     private readonly IMongoDatabase _database;
 
+    //name of the database is InventoryDb and its collection name is InventoryItems
     public MongoDBContext(IConfiguration config)
     {
         var client = new MongoClient(config.GetConnectionString("MongoDb"));
