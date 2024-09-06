@@ -21,7 +21,7 @@ docker pull paramveer03/myinventoryapp
 --
 
 after pulling the image you can run
-docker run -d --name <anycontainername> -p 6666:80 paramveer03/myinventoryapp
+docker run -d --name anycontainername -p 6666:80 paramveer03/myinventoryapp
 
 now you are ready to use inventory app to perform CRUD operation.
 
