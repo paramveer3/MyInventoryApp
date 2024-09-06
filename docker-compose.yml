@@ -12,7 +12,7 @@ services:
     ports:
       - "5000:80"
     environment:
-      - MONGODB_CONNECTION_STRING=mongodb+srv://<yourusername>:<yourpassword>@cluster0.mongodb.net/InventoryDb?retryWrites=true&w=majority
+      - MONGODB_CONNECTION_STRING=mongodb+srv://paramveer:paramveer@cluster0.mongodb.net/InventoryDb?retryWrites=true&w=majority
 
   mongo:
     image: mongo
